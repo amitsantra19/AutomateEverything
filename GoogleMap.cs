@@ -41,10 +41,7 @@ namespace AutomateGoogleMap
             IWebElement select = webDriver.FindElements(By.ClassName("sbsb_c")).FirstOrDefault(ele => ele.Text.Contains("4th B Cross Rd, 5th Block, Koramangala"));
             select.Click();
             Thread.Sleep(1000);
-            var minDistance = webDriver.FindElement(By.ClassName("section-directions-trip-numbers"));
-
-
-
+            //var minDistance = webDriver.FindElement(By.ClassName("section-directions-trip-numbers"));
         }
     }
 }
